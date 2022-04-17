@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    height:80px ;
+    background: rgb(53, 158, 49);
+}
+
+.nav h3{
+    color: white;
+
+    padding: 25px;
+}
+
+.forms{
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left:38%;
+    text-align: center;
+    background: rgb(241, 239, 239);
+    border: 2px  solid rgb(248, 244, 244);
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+
+}
+
+.LForm{
+
+    padding-top: 20%;
+}
+
+.LForm input{
+    display: block;
+    margin: 15px;
+    padding: 5px;
+    width:90%;
+    height: 30;
+    text-align: center;
+
+}
+.forms button{
+    margin-top: 30;
+    margin-bottom: 20;
+}
+
+.btn{
+    margin-top: 10px;
+    width: 80px;
+    border: 2px solid #888888;
+    border-radius: 8px;
+    background: rgb(68, 74, 80);
+    color: #fff;
+}
+
+.btn:hover{
+    color: white;
+}
+
+.btns{
+
+    text-align: center;
+    width: 100%;
+
+}
+
+
+
+@media (max-width:1080px){
+    .forms{
+        position: relative;
+        margin-left: 20%;
+
+    }
+    @media (max-width:550px){
+        .forms{
+            position: relative;
+            margin-left: 0;
+            width: 100%;
+        }
+    }
+}
+
+.NewUser{
+    text-align: center;
+    margin-top: 30;
+}
+
+.Userpass{
+    text-align: center;
+
+
+}
+
+.NewUser a, .Userpass a{
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px  solid rgb(46, 138, 43);
+    border-radius: 20px ;
+    background: rgb(53, 158, 49);
+    text-decoration: none;
+    color: white;
+}
+
+
+.caforms{
+    margin-top: 300px;
+}
+
+
+.caform{
+    margin-top: 300px;
+    background: rgb(241, 239, 239);
+    border: 2px  solid rgb(248, 244, 244);
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+    height: 500px;
+}
+
+.terms{
+    margin-left: 10px;
+}

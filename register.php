@@ -1,6 +1,5 @@
 <?php
 error_reporting(E_ERROR);
-include 'DB/database.php';
 
 
 
@@ -45,14 +44,14 @@ include 'DB/database.php';
             </div>
             <div class="form-group">
                 <input type="text" class="form-control" placeholder="Surname"  name="lastname"
-                       id="lastname" value="<?php echo $_POST['lastname']; ?>">
+                       id="lastname" >
                 <p id="errors" class="errors">
 
                 </p>
             </div>
             <div class="form-group">
                 <input type="email" class="form-control" placeholder="Email"  name="email" id="email"
-                       value="<?php echo $_POST['email']; ?>">
+                       >
                 <p id="errors" class="errors">
 
                 </p>
@@ -61,11 +60,7 @@ include 'DB/database.php';
                 <input type="text" autocomplete="off" class="form-control" placeholder="Birthday"
                        name="birthday" id="birthday" value="">
                 <p id="errors" class="errors">
-                    <?php
-                    if (isset($errors['birthday'])) {
-                        echo $errors['birthday'];
-                    }
-                    ?>
+                   
                 </p>
             </div>
             <div class="form-group">
